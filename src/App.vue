@@ -9,11 +9,11 @@ import { onMounted } from 'vue';
 import { IonApp, IonRouterOutlet, isPlatform } from '@ionic/vue';
 // import { ActionPerformed, PushNotificationSchema, PushNotifications, Token} from '@capacitor/push-notifications';
 // import { getAuth, onAuthStateChanged } from "firebase/auth";
-// import { useFirebaseConfig } from './services/useFirebaseConfig';
+import { useFirebaseConfig } from './services/useFirebaseConfig';
 import { useFirebaseMessaging } from './services/useFirebaseMessaging';
 
 onMounted(() => {
-    // const { firebaseApp } = useFirebaseConfig()
+    const { firebaseApp } = useFirebaseConfig()
     console.log('desktop', isPlatform('desktop'))
     
     if ( isPlatform('desktop') ) {
