@@ -5,8 +5,10 @@ export function useFirebaseMessaging() {
     const messaging = getMessaging();
     const token: any = ref(null)
 
+    console.log('VUE_APP_VAPID_KEY', process.env.VUE_APP_VAPID_KEY)
+
     // Add the public key generated from the console here.
-    getToken(messaging, { vapidKey: process.env.VAPID_KEY })
+    getToken(messaging, { vapidKey: process.env.VUE_APP_VAPID_KEY })
     .then((currentToken) => {
         if (currentToken) {
             // Send the token to your server and update the UI if necessary
