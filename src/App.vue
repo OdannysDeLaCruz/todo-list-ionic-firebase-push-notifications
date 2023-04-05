@@ -15,7 +15,8 @@ import { useFirebaseMessaging } from './services/useFirebaseMessaging';
 onMounted(() => {
     const { firebaseApp } = useFirebaseConfig()
     useFirebaseMessaging()
-
+    console.log('desktop', isPlatform('desktop'))
+    
     if ( isPlatform('desktop') ) {
         // Auth
         const auth = getAuth(firebaseApp.value)
