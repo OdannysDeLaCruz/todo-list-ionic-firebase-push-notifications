@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "625189552131",
+    "project_id": "superbeauty-todo-list-test",
+    "storage_bucket": "superbeauty-todo-list-test.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:625189552131:android:cbefa0b3128d4348a7ce36",
+        "android_client_info": {
+          "package_name": "com.example.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "625189552131-n6ndthta51j9b037vbsi30lel7cqn9n3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfHD28Zhfnsj1_LQX6nkU4a7dFnDN0hik"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "625189552131-n6ndthta51j9b037vbsi30lel7cqn9n3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
